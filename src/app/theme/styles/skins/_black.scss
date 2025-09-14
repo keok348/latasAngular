@@ -1,0 +1,16 @@
+
+/* ==============================
+   Realizado por Keok:
+   ============================== */
+// Definimos una paleta oscura basada en grises
+$black-primary: mat.m2-define-palette(mat.$m2-grey-palette, 900, 50, 700);
+$black-accent: mat.m2-define-palette(mat.$m2-blue-grey-palette, 200, 100, 400);
+$black-warn: mat.m2-define-palette(mat.$m2-red-palette, A200);
+
+$black-theme: mat.m2-define-light-theme((
+  color: (
+    primary: $black-primary,
+    accent: $black-accent,
+    warn: $black-warn,
+  ),
+));
